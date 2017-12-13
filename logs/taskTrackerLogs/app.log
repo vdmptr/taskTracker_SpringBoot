@@ -1,0 +1,43 @@
+19:06:37.891 DEBUG app.aop.allLog  - call method: RegistrationController.register() arguments: {}
+19:06:37.897 DEBUG app.aop.allLog  - return: RegistrationController.register() return:  registration
+20:48:08.702 DEBUG app.aop.allLog  - call method: InputController.getPage() arguments: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@c86823d5: Principal: vdm.security.SecurityUser@6b647d9: Username: vvvv; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_MANAGER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffc7f0c: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 7F6DD267FD6CE39162FBFCDF30755E3F; Granted Authorities: ROLE_MANAGER
+20:48:08.731 DEBUG app.aop.allLog  - call method: UserService.getUser() arguments: 408
+20:48:08.753 DEBUG app.aop.allLog  - return: UserService.getUser() return:  vdm.entity.User@62128d6d
+20:48:08.766 DEBUG app.aop.allLog  - return: InputController.getPage() return:  manager
+20:48:09.017 DEBUG app.aop.allLog  - call method: RestProject.getProjectsOfManager() arguments: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@c86823d5: Principal: vdm.security.SecurityUser@6b647d9: Username: vvvv; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_MANAGER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffc7f0c: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 7F6DD267FD6CE39162FBFCDF30755E3F; Granted Authorities: ROLE_MANAGER
+20:48:09.022 DEBUG app.aop.allLog  - call method: ProjectService.getProjectsOfManager() arguments: 408
+20:48:09.141 DEBUG app.aop.allLog  - return: ProjectService.getProjectsOfManager() return:  [vdm.dto.ProjectDTO@7043fc1f]
+20:48:09.142 DEBUG app.aop.allLog  - return: RestProject.getProjectsOfManager() return:  [vdm.dto.ProjectDTO@7043fc1f]
+20:48:09.220 DEBUG app.aop.allLog  - call method: RestTask.getAllTaskOfProject() arguments: 410
+20:48:09.221 DEBUG app.aop.allLog  - call method: RestUser.getAllDeveloper()
+20:48:09.229 DEBUG app.aop.allLog  - call method: UserService.getAllDeveloper()
+20:48:09.253 DEBUG app.aop.allLog  - call method: TaskService.getTasksOfProject() arguments: 410
+20:48:09.258 DEBUG app.aop.allLog  - return: UserService.getAllDeveloper() return:  [vdm.dto.UserDTO@34af6ed4, vdm.dto.UserDTO@527e93f1]
+20:48:09.259 DEBUG app.aop.allLog  - return: RestUser.getAllDeveloper() return:  [vdm.dto.UserDTO@34af6ed4, vdm.dto.UserDTO@527e93f1]
+20:48:09.277 DEBUG app.aop.allLog  - return: TaskService.getTasksOfProject() return:  [vdm.dto.TaskDTO@589773bf]
+20:48:09.280 DEBUG app.aop.allLog  - return: RestTask.getAllTaskOfProject() return:  [vdm.dto.TaskDTO@589773bf]
+20:48:46.985 DEBUG app.aop.allLog  - return: PageController.getCommentOfTask() return:  comment
+20:48:47.842 DEBUG app.aop.allLog  - call method: RestTask.getIdOfTask() arguments: org.apache.catalina.session.StandardSessionFacade@5fe7bcd9
+20:48:47.846 DEBUG app.aop.allLog  - return: RestTask.getIdOfTask() return:  411
+20:48:47.984 DEBUG app.aop.allLog  - call method: RestComment.getCommentOfTask() arguments: 411
+20:48:47.986 DEBUG app.aop.allLog  - call method: RestTask.getDescriptionOfTask() arguments: 411
+20:48:48.022 DEBUG app.aop.allLog  - return: RestTask.getDescriptionOfTask() return:  vdm.dto.DescriptionDTO@4c81628a
+20:48:48.024 DEBUG app.aop.allLog  - call method: CommentService.getCommentsOfTask() arguments: 411
+20:48:48.061 DEBUG app.aop.allLog  - return: CommentService.getCommentsOfTask() return:  []
+20:48:48.062 DEBUG app.aop.allLog  - return: RestComment.getCommentOfTask() return:  []
+20:49:00.155 DEBUG app.aop.allLog  - call method: InputController.getPage() arguments: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@c86823d5: Principal: vdm.security.SecurityUser@6b647d9: Username: vvvv; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_MANAGER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffc7f0c: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 7F6DD267FD6CE39162FBFCDF30755E3F; Granted Authorities: ROLE_MANAGER
+20:49:00.174 DEBUG app.aop.allLog  - call method: UserService.getUser() arguments: 408
+20:49:00.176 DEBUG app.aop.allLog  - return: UserService.getUser() return:  vdm.entity.User@e18ed25
+20:49:00.176 DEBUG app.aop.allLog  - return: InputController.getPage() return:  manager
+20:49:00.273 DEBUG app.aop.allLog  - call method: RestProject.getProjectsOfManager() arguments: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@c86823d5: Principal: vdm.security.SecurityUser@6b647d9: Username: vvvv; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_MANAGER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffc7f0c: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 7F6DD267FD6CE39162FBFCDF30755E3F; Granted Authorities: ROLE_MANAGER
+20:49:00.273 DEBUG app.aop.allLog  - call method: ProjectService.getProjectsOfManager() arguments: 408
+20:49:00.293 DEBUG app.aop.allLog  - return: ProjectService.getProjectsOfManager() return:  [vdm.dto.ProjectDTO@62820ea1]
+20:49:00.294 DEBUG app.aop.allLog  - return: RestProject.getProjectsOfManager() return:  [vdm.dto.ProjectDTO@62820ea1]
+20:49:00.383 DEBUG app.aop.allLog  - call method: RestUser.getAllDeveloper()
+20:49:00.384 DEBUG app.aop.allLog  - call method: RestTask.getAllTaskOfProject() arguments: 410
+20:49:00.386 DEBUG app.aop.allLog  - call method: UserService.getAllDeveloper()
+20:49:00.405 DEBUG app.aop.allLog  - call method: TaskService.getTasksOfProject() arguments: 410
+20:49:00.411 DEBUG app.aop.allLog  - return: UserService.getAllDeveloper() return:  [vdm.dto.UserDTO@6b4fc267, vdm.dto.UserDTO@6fdb0507]
+20:49:00.411 DEBUG app.aop.allLog  - return: RestUser.getAllDeveloper() return:  [vdm.dto.UserDTO@6b4fc267, vdm.dto.UserDTO@6fdb0507]
+20:49:00.417 DEBUG app.aop.allLog  - return: TaskService.getTasksOfProject() return:  [vdm.dto.TaskDTO@7c158bf5]
+20:49:00.417 DEBUG app.aop.allLog  - return: RestTask.getAllTaskOfProject() return:  [vdm.dto.TaskDTO@7c158bf5]
